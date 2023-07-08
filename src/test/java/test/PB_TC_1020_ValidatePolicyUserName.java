@@ -89,6 +89,7 @@ public class PB_TC_1020_ValidatePolicyUserName extends Base
 	@AfterClass
 	public void closePoilicyBazaar() throws InterruptedException
 	{
+		Utility.wait(3000);
 		closeBrowser();
 	}
 	
